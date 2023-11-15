@@ -1,0 +1,126 @@
+@import url(reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Play:wght@700&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+
+
+body h1, h2 {
+    font-family: 'Play', sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+.container {
+  max-width: 1272px;
+  margin: 0 auto;
+  padding: 0 16px;
+  
+}
+
+section {
+    height: 100vh;
+    background-color: darkcyan;
+}
+
+footer {
+    height: 325px;
+    background-color: #152C39;
+}
+
+footer .container {
+    padding-top: 60px;
+}
+
+.footer-main {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer-info-block {
+    padding-top: 31px;
+    display: flex;
+    color: rgba(255, 255, 255, .8);
+    
+}
+
+.footer-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 217px;
+    height: 96px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    max-width: 72px;
+    height: 84px;
+    padding-left: 76px;
+    color:rgba(255, 255, 255, .8);
+}
+
+.footer-logo img {
+    height: 92px;
+    width: 489px;
+}
+
+.footer-nav-list {
+    display: flex;
+    column-gap: 24px;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+
+.footer-nav-link {
+    color: rgba(255, 255, 255, .7);
+    transition: all .2s;
+}
+
+.footer-nav-link:hover {
+    color: rgba(255, 255, 255, .9);
+}
+
+.span-line {
+    border-bottom: 1px solid red;
+}
+
+.footer-other {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%;
+    color:rgba(255, 255, 255, .8);
+    position: relative;
+}
+
+.footer-other-block {
+    display: flex;
+    gap: 50px;
+}
+
+.footer-other::after {
+    content:'';
+    position: absolute;
+    display: block;
+    height: 1px;
+    max-width: 1240px;
+    width: 100%;
+    background: darkgray;
+    margin-top: -23px;
+}
